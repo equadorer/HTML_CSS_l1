@@ -1,0 +1,75 @@
+/*---------- Задаём фон сайта ------------*/	
+body {
+	background: #f8f8f8;
+}
+
+/*---------- Задаём стиль для меню сайта ------------*/
+.menu li{
+	font-style: bold;
+	font-size: 20px;
+	list-style-type: none;
+}
+.menu li a {
+	color: #1631ae;
+}
+
+/*---------- Задаём стиль для страниц товаров ------------*/
+.h1Service {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea;
+	text-align: center;
+}
+
+.h2Service {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.descService {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.desc2Service {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.listDesc li{
+	font-style: italic;
+	font-size: 15px;
+	list-style-image: url(../images/services/menu_item.png)
+}
+
+.imgBorder {
+	border: 1px solid black;
+}
+/*---------- Задаём стиль для страницы контактов ------------*/
+input[type="text"] {
+	width: 15%;
+	height: 30px;
+	font-size: 18px;
+	color: #1b1bb3;
+}
+
+input[type="email"] {
+	width: 15%;
+	height: 30px;
+	font-size: 18px;
+	color: #1b1bb3;
+}
+
+textarea {
+	width: 30%;
+	height: 100px;
+	font-size: 16px;
+	color: darkblue;
+}
