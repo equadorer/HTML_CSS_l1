@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Контакты</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-   <img src="../images/logo.png"
-       alt="Логотип компании Айтивис"
-       title="Наш замечательный логотип"
-       width="200">
-    <hr>   
-    <ul class="menu">
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="../services/catalog.html">Каталог</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-    <hr>
-    <h1>Напишите нам</h1>
-    <form action="">
+   <div class="header">
+       <img src="../images/logo.png"
+            alt="Логотип компании Айтивис"
+            title="Наш замечательный логотип"
+            width="200">
+       Добро пожаловать на сайт компании Айтивис
+       <ul class="menu">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="../services/catalog.html">Каталог</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+       </ul>
+   </div>
+   <hr>
+   <h1 class="h1Service">Контакты</h1>
+   <form action="">
         <fieldset>
-            <legend>Заполните форму для отправки сообщения</legend>
+            <legend>Отправьте нам сообщение</legend>
             <p>
                 <input type="text" size="30" placeholder="Ваше имя">
                 <input type="email" size="30" placeholder="Ваш email">
@@ -38,9 +40,9 @@
                 <input type="button" value="Отправить данные">
             </p>
         </fieldset>
-    </form>
-    <h2>Как вы узнали о нашей компании ?</h2>
-    <form action="">
+   </form>
+   <h2>Как вы узнали о нашей компании ?</h2>
+   <form action="">
         <fieldset>
             <p>
                 <input type="checkbox" name="option1" value="a1">Из СМИ<Br>
@@ -52,9 +54,9 @@
                 <input type="submit" value="Отправить">
             </p>
         </fieldset>
-    </form>
-    <h2>Наш адрес</h2>
-    <p>
+   </form>
+   <h2>Наш адрес</h2>
+   <p>
         <b>Компания Айтивис</b><br>
         <b>Наш телефон:</b>8(3466)636-612 <br>
         <b>Наш адрес:</b>628605, ХМАО-Югра, <br>
@@ -62,9 +64,17 @@
         ул. Нововартовская, дом 4, оф. 133 <br>
         <b>Email:</b>sales@itvis.ru <br>
         <b>Информация:</b> Lorem ipsum dolor sit amet.
-    </p>
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=J0FP3RYhem2LzTE7y1qz2ZGeriMK-WW8&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
-    <hr>
-    <h3>&copy; Все права защищены</h3>
+   </p>
+   <script
+           type="text/javascript"
+           charset="utf-8"
+           async
+           src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=J0FP3RYhem2LzTE7y1qz2ZGeriMK-WW8&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true">
+
+   </script>
+   <hr>
+   <div class="footer">
+       <h3>&copy; Все права защищены</h3>
+   </div>
 </body>    
 </html>
