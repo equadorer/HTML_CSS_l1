@@ -6,94 +6,69 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-   <div class="header">
-       <img src="../images/logo.png"
-            alt="Логотип компании Айтивис"
-            title="Наш замечательный логотип"
-            width="200">
-       Добро пожаловать на сайт компании Айтивис
-       <ul class="menu">
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="../about/contacts.html">Контакты</a></li>
-       </ul>
-   </div>
-   <hr>
-   <h1 class="h1Service">Настройка локальной сети</h1>
-   <br>
-   <a href="../images/services/service3.jpg" target="_blank">
-       <img class="imgBorder"
-            src="../images/services/service3.jpg"
-            alt="Настройка локальной сети"
-            title="Настройка локальной сети"
-            width="700">
-   </a>
-   <br>
-   <h2 class="h2Service">Описание:</h2>
-   <div class="descService">
-		<p>
-		   Полноценное функционирование рабочего процесса в современном офисе невозможно без организации внутренней сети <br>
-		   и подключения к интернету. <br>
-		   Однако не в каждой фирме имеются квалифицированные специалисты по «железу», <br>
-		   которые смогут подключить и настроить сеть, не говоря уже о прокладке кабельных каналов <br>
-		   и сборке оборудования. <br>
-		   Компания Айтивис окажет вам помощь, спроектировав и смонтировав как внутреннюю офисную сеть, <br>
-		   так и подключив офисную сеть к интернету.
-    	</p>
-   </div>
-   <div class="table">
-       <table>
-           <caption>Lorem ipsum.</caption>
-           <tr>
-               <td class="firstLine">Lorem.</td>
-               <td>Lorem.</td>
-               <td>Lorem.</td>
-               <td>Lorem.</td>
-               <td>Lorem.</td>
-           </tr>
-           <tr>
-               <td>Lorem.</td>
-               <td rowspan="3" colspan="3">TEST.</td>
-               <td>Lorem.</td>
-
-           </tr>
-           <tr>
-               <td>Lorem.</td>
-               <td>Lorem.</td>
-           </tr>
-           <tr>
-               <td>Lorem.</td>
-               <td>Lorem.</td>
-           </tr>
-           <tr>
-               <td>Lorem.</td>
-               <td>Lorem.</td>
-               <td>Lorem.</td>
-               <td>Lorem.</td>
-               <td>Lorem.</td>
-           </tr>
-       </table>
-   </div>
-   <h2 class="h2Service">Цена:</h2> <i>от 1000 руб.</i>
-   <h2 class="h2Service">Подробнее:</h2>
-   <div class="desc2Service">
-    	<p>
-    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-    		Dolores neque nemo recusandae, odio aliquid quam, aliquam, <br> reprehenderit dignissimos, laborum cumque sit! <br>
-    		Architecto accusantium nostrum, impedit ipsam reiciendis <br>
-    		ipsum consequuntur perferendis.
-    	</p>
-   </div>
-   <ul class="listDesc">
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-   </ul>
-   <hr>
-   <div class="footer">
-       <h3>&copy; Все права защищены</h3>
-   </div>
+    <header>
+        <div class="headerInside">
+            <div class="logo"></div>
+            <div class="companyName">Айтивис</div>
+            <div class="navWrap">
+                <a href="../index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="../about/contacts.html">Контакты</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1 class="h1Service">Локальные сети</h1>
+        <hr>
+        <div class="catalogBox">
+            <div class="openedProduct-img">
+                <img src="../images/services/service3.jpg">
+            </div>
+            <div class="openedProduct-content">
+                <div class="openedProduct-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error explicabo magnam.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error explicabo magnam.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error explicabo magnam.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error explicabo magnam.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error explicabo magnam.
+                </div>
+                <div class="openedProduct-price">
+                    Цена: 0000 руб.
+                </div>
+                <a href="#" class="shopUnitMore">
+                    Купить
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerInside">
+            <div class="contacts">
+                <div class="contactWrap">
+                    <img src="../images/envelope.svg" class="contactIcon">
+                    sales@itvis.ru
+                </div>
+                <div class="contactWrap">
+                    <img src="../images/phone-call.svg" class="contactIcon">
+                    8-3466-636-612
+                </div>
+                <div class="contactWrap">
+                    <img src="../images/placeholder.svg" class="contactIcon">
+                    Нижневартовск, ул.Нововартовская, д.4, оф. 133
+                </div>
+            </div>
+            <div class="footerNav">
+                <a href="../index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="../about/contacts.html">Контакты</a>
+            </div>
+            <div class="social">
+                <img class="socialItem" src="../images/vk-social-logotype.svg">
+                <img class="socialItem" src="../images/google-plus-social-logotype.svg">
+                <img class="socialItem" src="../images/facebook-logo.svg">
+            </div>
+            <div class="copyrights">&copy; Айтивис. 2017г.</div>
+        </div>
+    </footer>
 </body>    
 </html>

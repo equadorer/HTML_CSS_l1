@@ -1,70 +1,272 @@
-/*---------- Задаём фон сайта ------------*/	
+/*---------- Подключаем шрифты -----------*/
+@font-face {
+	font-family: Huntsman;
+	src: url('../fonts/Huntsman.otf');
+}
+@font-face {
+	font-family: Exo;
+	src: url('../fonts/Exo.otf');
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url('../fonts/OpenSans.otf');
+}
+/*---------- Задаём фон сайта ------------*/
 body {
 	background: #f8f8f8;
 }
-
-/*---------- Задаём стиль для меню сайта ------------*/
-.menu li{
-	font-style: italic;
-	font-size: 20px;
-	list-style-type: none;
+/*---------- Задаём стиль для основного содержимого странирцы*/
+body, html {
+	padding: 0;
+	margin: 0;
+	color: #5e5e5e;
+	font-family: "Open Sans", sans-serif;
 }
-.menu li a {
-	color: #1631ae;
+header {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	padding: 10px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	/*background: url('../images/promo.jpg') no-repeat;*/
+	/*background-color: #61b4cf;*/
+	background: url('../images/footerback2.png');
+	background-size: 100%;
 }
-.menu li a:hover {
-    color: #61b4cf;
+.headerInside {
+	width: 1100px;
+	margin: 0 auto;
 }
-
-/*---------- Задаём стиль для страниц товаров ------------*/
-.h1Service {
-	color: black;
-	font-size: 18px;
-	font-weight: 400;
-	background-color: #eaeaea;
+.logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: url('../images/logo3.png') no-repeat;
+	background-size: contain;
+}
+.companyName {
+	text-align: right;
+	font-family: Exo, sans-serif;
+	float: left;
+	margin-left: 15px;
+	font-size: 1.3em;
+	line-height: 50px;
+	color: #fff;
+}
+.navWrap {
+	height: 50px;
+	float: right;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.navWrap a {
+	display: block;
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+	text-decoration: none;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 0 20px;
+	height: 70px;
+	line-height: 70px;
+}
+.navWrap a:hover {
+	background: #0d58a6;
+}
+/*Чтобы не задваивалась граница кнопок меню*/
+.navWrap a:last-child {
+	border-left: none;
+}
+.navWrap a:nth-child(2) {
+	border-left: none;
+}
+/*-----------------------------------------*/
+.container {
+	min-height: 600px;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.mainTextWrap {
+	width: 100%;
+	float: left;
+}
+.mainText {
+	width: 1100px;
+	margin: 40px auto;
+	text-align: justify;
+}
+footer {
+	float: left;
+	width: 100%;
+	height: 300px;
+	background: url('../images/footerback2.png');
+	color: #fff;
+}
+.footerInside {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	height: 100%;
+}
+.copyrights {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
 	text-align: center;
 }
-
-.h2Service {
-	color: black;
-	font-size: 18px;
-	font-weight: 400;
+.social {
+	padding-top: 20px;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.socialItem {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+}
+.contacts {
+	position: absolute;
+	left: o;
+	top: 20px;
+	width: 500px;
+}
+.contactWrap {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	line-height: 40px;
+}
+.contactIcon {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+.footerNav {
+	position: absolute;
+	right: 0;
+	top: 45px;
+	width: 200px;
+}
+.footerNav a {
+	display: block;
+	text-align: right;
+	color: #e6e09a;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.footerNav a:hover {
+	color: #fff;
+}
+.h1Service {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	color: #000;
+	font-family: Exo, sans-serif;
+	font-size: 2em;
+	word-spacing: 8px;
+}
+/*-----------------------------------------------------------------*/
+/*---------------------------- Стиль для каталога товаров-----------------------------*/
+.catalogBox {
+	width: 1100px;
+	margin: 0 auto;
+}
+/*.shopImg {
+	width: 308px;
+	height: 231px;
+}*/
+.shopUnit {
+	float: left;
+	width: 28%;
+	padding: 5px;
+	border: 1px solid rgba(225, 225, 225, 0.7);
+	margin-right: 6.365%;
+	margin-bottom: 20px;
+}
+.shopUnit:nth-child(3n) {
+	margin-right: 0;
+}
+.shopUnitName {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	font-family: Exo, sans-serif;
+	font-size: 1.2em;
+}
+.shopUnit img {
+	width: 100%;
+	height: 100%;
+}
+.shopUnitShortDesc {
+	text-align: justify;
+	margin-top: 10px;
+}
+.shopUnitPrice {
+	text-align: right;
+	padding-right: 20px;
+	margin-top: 10px;
+	color: #000;
+	font-weight: bold;
+}
+.shopUnitMore {
+	border: none;
+	padding: 5px 15px;
+	/*background-color: #696969;*/
+	background: url('../images/footerback2.png');
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	color: #e6e09a;
+	text-decoration: none;
+}
+.shopUnitMore:hover {
+	color: #fff;
+	/*background-color: #0d58a6;*/
+}
+.shopUnitMore:active {
+	color: red;
+	background: url('../images/footerback.png');
+}
+/*-----------------------------------------------------------------*/
+/*------------------------------- Стиль для страницы с открытым товаром ------------------------------------*/
+.openedProduct-img {
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+.openedProduct-img img {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid rgba(225, 225, 225, 0.7);
+}
+.openedProduct-content {
+	float: left;
+	width: 67%;
+}
+.openedProduct-desc {
+	margin-top: 20px;
 }
 
-.descService {
-	color: #707070;
-	font-size: 14px;
-	font-style: italic;
-	line-height: 16px;
+.openedProduct-price {
+	margin-top: 10px;
+	color: #1b1bb3;
+	font-weight: bold;
 }
-
-.desc2Service {
-	color: #484343;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	text-align: left;
-}
-
-.listDesc li{
-	font-style: italic;
-	font-size: 15px;
-	list-style-image: url(../images/services/menu_item.png)
-}
-
-.imgBorder {
-	border: 1px solid black;
-}
-
-.imgBorder:hover {
-    /*Можно сделать цвет фона для рамки*/
-    /*border: 1px solid #f8f8f8;*/
-    /*Можно сделать прозрачную рамку, если фон неоднородный*/
-    border-color: transparent;
-}
+/*-----------------------------------------------------------------*/
 /*---------- Задаём стиль для страницы контактов ------------*/
 input[type="text"] {
-	width: 15%;
+	width: 30%;
 	height: 30px;
 	font-size: 18px;
 	color: #1b1bb3;
@@ -72,14 +274,14 @@ input[type="text"] {
 }
 
 input[type="email"] {
-	width: 15%;
+	width: 30%;
 	height: 30px;
 	font-size: 18px;
 	color: #1b1bb3;
 }
 
 input:focus[type="email"] {
-    width: 15%;
+    width: 30%;
     height: 30px;
     font-size: 18px;
     color: #000;
@@ -87,26 +289,9 @@ input:focus[type="email"] {
 }
 
 textarea {
-	width: 30%;
-	height: 100px;
+	width: 60%;
+	height: 200px;
 	font-size: 16px;
 	color: darkblue;
     text-transform: capitalize;
-}
-/*---------- Задаём стиль для таблиц ------------*/
-table {
-    border: 2px solid #000;
-    border-collapse: collapse;
-    width: 30%;
-    height: 200px;
-}
-
-td {
-    border: 2px solid #000;
-    text-align: center;
-    background: #61b4cf;
-}
-
-.firstLine {
-    height: 100px;
 }

@@ -6,75 +6,103 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-   <div class="header">
-       <img src="../images/logo.png"
-            alt="Логотип компании Айтивис"
-            title="Наш замечательный логотип"
-            width="200">
-       Добро пожаловать на сайт компании Айтивис
-       <ul class="menu">
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="../services/catalog.html">Каталог</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-       </ul>
-   </div>
-   <hr>
-   <h1 class="h1Service">Контакты</h1>
-   <form action="">
-        <fieldset>
-            <legend>Отправьте нам сообщение</legend>
-            <p>
-                <input type="text" size="30" placeholder="Ваше имя">
-                <input type="email" size="30" placeholder="Ваш email">
-            </p>
-            <p>
-                <b>Тема сообщения:</b><br>
-                <input type="text" size="65">
-            </p>
-            <p>
-                <b>Сообщение:</b><br>
-                <textarea name="comment" cols="67" rows="5"></textarea>
-            </p>
-            <p>
-                <input type="reset" value="Очистить данные">
-                <input type="button" value="Отправить данные">
-            </p>
-        </fieldset>
-   </form>
-   <h2>Как вы узнали о нашей компании ?</h2>
-   <form action="">
-        <fieldset>
-            <p>
-                <input type="checkbox" name="option1" value="a1">Из СМИ<Br>
-                <input type="checkbox" name="option2" value="a2">Из соц. сетей<Br>
-                <input type="checkbox" name="option3" value="a3">Из периодических изданий<Br> 
-                <input type="checkbox" name="option4" value="a4">От знакомых
-            </p>
-            <p>
-                <input type="submit" value="Отправить">
-            </p>
-        </fieldset>
-   </form>
-   <h2>Наш адрес</h2>
-   <p>
-        <b>Компания Айтивис</b><br>
-        <b>Наш телефон:</b>8(3466)636-612 <br>
-        <b>Наш адрес:</b>628605, ХМАО-Югра, <br>
-        г.Нижневартовск <br>
-        ул. Нововартовская, дом 4, оф. 133 <br>
-        <b>Email:</b>sales@itvis.ru <br>
-        <b>Информация:</b> Lorem ipsum dolor sit amet.
-   </p>
-   <script
-           type="text/javascript"
-           charset="utf-8"
-           async
-           src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=J0FP3RYhem2LzTE7y1qz2ZGeriMK-WW8&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true">
+    <header>
+        <div class="headerInside">
+            <div class="logo"></div>
+            <div class="companyName">Айтивис</div>
+            <div class="navWrap">
+                <a href="../index.html">Главная</a>
+                <a href="../services/catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1 class="h1Service">Контакты</h1>
+        <hr>
+        <form action="">
+            <fieldset>
+                <legend>Отправьте нам сообщение</legend>
+                <p>
+                    <input type="text" size="30" placeholder="Ваше имя">
+                    <input type="email" size="30" placeholder="Ваш email">
+                </p>
+                <p>
+                    <b>Тема сообщения:</b><br>
+                    <input type="text" size="65">
+                </p>
+                <p>
+                    <b>Сообщение:</b><br>
+                    <textarea name="comment" cols="67" rows="5"></textarea>
+                </p>
+                <p>
+                    <input type="reset" value="Очистить данные">
+                    <input type="button" value="Отправить данные">
+                </p>
+            </fieldset>
+        </form>
+        <h2>Как вы узнали о нашей компании ?</h2>
+        <form action="">
+            <fieldset>
+                <p>
+                    <input type="checkbox" name="option1" value="a1">Из СМИ<Br>
+                    <input type="checkbox" name="option2" value="a2">Из соц. сетей<Br>
+                    <input type="checkbox" name="option3" value="a3">Из периодических изданий<Br>
+                    <input type="checkbox" name="option4" value="a4">От знакомых
+                </p>
+                <p>
+                    <input type="submit" value="Отправить">
+                </p>
+            </fieldset>
+        </form>
+        <h2>Наш адрес</h2>
+        <p>
+            <b>Компания Айтивис</b><br>
+            <b>Наш телефон:</b>8(3466)636-612 <br>
+            <b>Наш адрес:</b>628605, ХМАО-Югра, <br>
+            г.Нижневартовск <br>
+            ул. Нововартовская, дом 4, оф. 133 <br>
+            <b>Email:</b>sales@itvis.ru <br>
+            <b>Информация:</b> Lorem ipsum dolor sit amet.
+        </p>
+        <script
+                type="text/javascript"
+                charset="utf-8"
+                async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=J0FP3RYhem2LzTE7y1qz2ZGeriMK-WW8&amp;width=100%25&amp;height=374&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true">
 
-   </script>
-   <hr>
-   <div class="footer">
-       <h3>&copy; Все права защищены</h3>
-   </div>
+        </script>
+    </div>
+
+
+    <footer>
+        <div class="footerInside">
+            <div class="contacts">
+                <div class="contactWrap">
+                    <img src="../images/envelope.svg" class="contactIcon">
+                    sales@itvis.ru
+                </div>
+                <div class="contactWrap">
+                    <img src="../images/phone-call.svg" class="contactIcon">
+                    8-3466-636-612
+                </div>
+                <div class="contactWrap">
+                    <img src="../images/placeholder.svg" class="contactIcon">
+                    Нижневартовск, ул.Нововартовская, д.4, оф. 133
+                </div>
+            </div>
+            <div class="footerNav">
+                <a href="../index.html">Главная</a>
+                <a href="../services/catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+            <div class="social">
+                <img class="socialItem" src="../images/vk-social-logotype.svg">
+                <img class="socialItem" src="../images/google-plus-social-logotype.svg">
+                <img class="socialItem" src="../images/facebook-logo.svg">
+            </div>
+            <div class="copyrights">&copy; Айтивис. 2017г.</div>
+        </div>
+    </footer>
 </body>    
 </html>

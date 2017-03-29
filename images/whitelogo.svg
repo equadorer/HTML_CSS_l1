@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" x="0px" width="4000px" y="0px" version="1.1" height="3326px" id="Logotype" viewBox="0 0 4000 3326"><!--Creator: Logaster--><rect x="0" width="4000" fill="url(#logotypeBackground)" y="0" height="3326"/><defs><font id="DecorDdi" horiz-adv-x="360"><font-face font-family="DecorDdi" units-per-em="1000" panose-1="4 0 0 0 0 0 0 0 0 0" ascent="826" descent="-174" alphabetic="0"/>
+<missing-glyph horiz-adv-x="500" d="M63 0V875H438V0H63ZM125 63H375V813H125V63Z"/>
+<glyph unicode=" " glyph-name="space" horiz-adv-x="278"/>
+<glyph unicode="А" glyph-name="afii10017" horiz-adv-x="397" d="M374 142H350V0H277V142H182V0H108V142H44L0 215H108V409Q108 522 171 601Q201 640 252 673Q307 709 350 715V215H374V142ZM277 215V596Q244 568 229 546Q182 480 182 401V215H277Z"/>
+<glyph unicode="В" glyph-name="afii10019" horiz-adv-x="382" d="M350 95Q350 48 316 22Q286 0 237 0H108V142H44L0 215H108V715Q147 709 206 669Q260 632 288 597Q350 519 350 409Q350 300 277 215Q315 199 330 183Q350 163 350 126V95ZM277 401Q277 478 230 544Q214 566 182 596V215Q277 293 277 401ZM277 103V114Q277 142 244 142H182V74H244Q277 74 277 103Z"/>
+<glyph unicode="И" glyph-name="afii10026" horiz-adv-x="320" d="M283 0H210V248L46 -36V687H119V222L210 384V687H283V0Z"/>
+<glyph unicode="Й" glyph-name="afii10027" horiz-adv-x="320" d="M200 722H127V796H200V722ZM283 0H210V248L46 -36V687H119V221L210 384V687H283V0Z"/>
+<glyph unicode="С" glyph-name="afii10035" horiz-adv-x="270" d="M265 0H156Q23 146 23 345Q23 533 156 687H265Q97 539 97 344Q97 146 265 0Z"/>
+<glyph unicode="Т" glyph-name="afii10036" horiz-adv-x="290" d="M271 613H188V0H115V613H34V687H271V613Z"/>
+<glyph unicode="а" glyph-name="afii10065" horiz-adv-x="397" d="M374 142H350V0H277V142H182V0H108V142H44L0 215H108V409Q108 522 171 601Q201 640 252 673Q307 709 350 715V215H374V142ZM277 215V596Q244 568 229 546Q182 480 182 401V215H277Z"/>
+<glyph unicode="г" glyph-name="afii10068" horiz-adv-x="266" d="M247 614H165Q131 614 127 606Q119 600 119 558V1H46V558Q46 630 69 657Q95 688 165 688H247V614Z"/>
+<glyph unicode="л" glyph-name="afii10077" horiz-adv-x="324" d="M288 0H214V596Q182 568 166 546Q119 480 119 401V0H46V409Q46 522 108 601Q139 640 189 673Q244 709 288 715V0Z"/>
+<glyph unicode="н" glyph-name="afii10079" horiz-adv-x="396" d="M373 142H349V0H276V142H181V0H108V142H43L0 215H108V687H181V215H276V687H349V215H373V142Z"/>
+<glyph unicode="о" glyph-name="afii10080" horiz-adv-x="324" d="M291 103Q291 47 258 17T169 -13Q47 -13 47 103V585Q47 639 81 672T169 705Q221 705 256 671T291 585V103ZM218 123V566Q218 631 169 631Q120 631 120 566V123Q120 61 170 61Q218 61 218 123Z"/>
+<glyph unicode="с" glyph-name="afii10083" horiz-adv-x="270" d="M265 0H156Q23 146 23 345Q23 533 156 687H265Q97 539 97 344Q97 146 265 0Z"/>
+<glyph unicode="ш" glyph-name="afii10090" horiz-adv-x="538" d="M501 0H46V74H70V687H143V74H236V687H310V74H404V687H478V74H501V0Z"/>
+</font>
+<font id="Micra" horiz-adv-x="919"><font-face font-family="Micra" units-per-em="1000" panose-1="0 0 0 0 0 0 0 0 0 0" ascent="773" descent="227" alphabetic="0"/>
+<missing-glyph horiz-adv-x="773" d="M48 0V773H725V0H48ZM677 48V725H96V48H677Z"/>
+<glyph unicode=" " glyph-name="space" horiz-adv-x="278"/>
+<glyph unicode="А" glyph-name="afii10017" horiz-adv-x="1149" d="M377 715H752L1108 0H851L783 119H347L279 0H22L377 715ZM582 555H547L429 304H700L582 555Z"/>
+<glyph unicode="В" glyph-name="afii10019" horiz-adv-x="1007" d="M285 286V173H666Q695 173 712 187T730 227Q730 262 715 274T666 286H285ZM65 715H704Q807 715 854 685Q924 640 924 513Q924 457 904 420T851 367Q950 323 950 198Q950 89 900 45T730 0H65V715ZM285 542V446H675Q702 446 716 457T730 494Q730 519 716 530T675 542H285Z"/>
+<glyph unicode="И" glyph-name="afii10026" horiz-adv-x="1199" d="M92 715H312V222Q312 215 299 177Q292 156 292 152L295 147Q302 147 310 163Q315 174 321 186L697 715H1057V0H837V493Q837 501 847 529T858 563L855 568Q849 568 842 555T829 529L452 0H92V715Z"/>
+<glyph unicode="Й" glyph-name="afii10027" horiz-adv-x="1155" d="M84 715H304V223Q304 216 291 177Q284 156 284 152L287 148Q293 148 300 161T313 187L689 715H1049V0H829V494Q829 502 839 531T850 564L847 569Q840 569 833 555T821 530L444 0H84V715ZM766 854V755H412V854H766Z"/>
+<glyph unicode="С" glyph-name="afii10035" horiz-adv-x="1008" d="M491 725Q797 725 868 674Q930 630 930 440H710Q710 502 676 519Q635 540 491 540Q331 540 303 516T274 357Q274 222 301 199T491 175Q637 175 673 192T710 275H930Q930 84 870 41Q799 -10 491 -10Q183 -10 119 46T54 358Q54 613 116 667Q183 725 491 725Z"/>
+<glyph unicode="Т" glyph-name="afii10036" horiz-adv-x="1037" d="M87 530V715H938V530H623V0H403V530H87Z"/>
+<glyph unicode="а" glyph-name="afii10065" horiz-adv-x="1149" d="M377 715H752L1108 0H851L783 119H347L279 0H22L377 715ZM582 555H547L429 304H700L582 555Z"/>
+<glyph unicode="г" glyph-name="afii10068" horiz-adv-x="823" d="M71 715H786V530H291V0H71V715Z"/>
+<glyph unicode="л" glyph-name="afii10077" horiz-adv-x="1125" d="M997 715V0H777V530H386Q386 220 333 104Q285 0 166 0H62V185Q139 185 152 253T166 715H997Z"/>
+<glyph unicode="н" glyph-name="afii10079" horiz-adv-x="1102" d="M291 715V463H766V715H986V0H766V278H291V0H71V715H291Z"/>
+<glyph unicode="о" glyph-name="afii10080" horiz-adv-x="1108" d="M1031 357Q1031 97 968 46Q899 -10 558 -10Q308 -10 230 8Q132 31 106 108Q86 167 86 357Q86 618 148 669Q216 725 558 725Q899 725 967 670Q1031 618 1031 357ZM306 357Q306 220 337 198T558 175Q747 175 779 198T811 357Q811 494 780 517T559 540Q370 540 338 517T306 357Z"/>
+<glyph unicode="с" glyph-name="afii10083" horiz-adv-x="1008" d="M491 725Q797 725 868 674Q930 630 930 440H710Q710 502 676 519Q635 540 491 540Q331 540 303 516T274 357Q274 222 301 199T491 175Q637 175 673 192T710 275H930Q930 84 870 41Q799 -10 491 -10Q183 -10 119 46T54 358Q54 613 116 667Q183 725 491 725Z"/>
+<glyph unicode="ш" glyph-name="afii10090" horiz-adv-x="1475" d="M120 715H340V185H635V715H855V185H1150V715H1370V0H120V715Z"/>
+<hkern g1="A" g2="T" k="75"/>
+<hkern g1="A" g2="V" k="112"/>
+<hkern g1="A" g2="W" k="75"/>
+<hkern g1="A" g2="Y" k="112"/>
+<hkern g1="F" g2="A" k="62"/>
+<hkern g1="L" g2="T" k="150"/>
+<hkern g1="L" g2="V" k="125"/>
+<hkern g1="L" g2="W" k="75"/>
+<hkern g1="L" g2="Y" k="150"/>
+<hkern g1="T" g2="A" k="87"/>
+<hkern g1="V" g2="A" k="112"/>
+<hkern g1="W" g2="A" k="75"/>
+<hkern g1="Y" g2="A" k="112"/>
+</font>
+<linearGradient gradientTransform="rotate(90)" id="logotypeBackground" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#4BDEFF"/><stop offset="1" stop-color="#19ACCD"/></linearGradient></defs><g transform="matrix(23.25581395348837, 0, 0, 23.25581395348837, 0, 0)"><g transform="matrix(1.0242972709758498, 0, 0, 1.0242972709758498, -0.327775284228705, -2.3273402722963397)"><g transform="matrix(0.8039130554574986, 0, 0, 0.8039130554574986, 10.320000153779999, 94.38000140637159)"><text x="-0.3999999999999999" y="20.549999999999997" xml:space="preserve" fill="#FFFFFF" font-family="Micra" font-size="24">АЙТИВИС</text></g><g transform="matrix(0.31813126169269423, 0, 0, 0.31813126169269423, 38.89857677540703, 16.538053639094713)"><g>
+	<polygon id="dcs2" fill="#FFFFFF" points="8.206,102.641 34.725,157.457 274.326,51.395  "/>
+	<polygon id="kcs" fill="#FFFFFF" points="36.011,161.424 40.406,208.826 275.61,55.36  "/>
+	<polygon id="dcs1" fill="#FFFFFF" points="53.301,206.022 64.722,231.191 277.103,59.988  "/>
+</g></g></g></g></svg>

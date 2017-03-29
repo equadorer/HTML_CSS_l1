@@ -6,49 +6,107 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-   <div class="header">
-       <img src="../images/logo.png"
-            alt="Логотип компании Айтивис"
-            title="Наш замечательный логотип"
-            width="200">
-       Добро пожаловать на сайт компании Айтивис
-       <ul class="menu">
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="../about/contacts.html">Контакты</a></li>
-       </ul>
-   </div>
-   <hr>
-   <h1 class="h1Service">Каталог услуг</h1>
-   <ol>
-        <li>
-            <img src="../images/services/service1.jpg"
-                 alt="Аутсорсинг ИТ"
-                 title="Аутсорсинг ИТ"
-                 width="300">
-            <br>
-            <a href="servece1.html">Аутсорсинг ИТ</a>
-        </li>
-        <li>
-            <img src="../images/services/service2.jpg"
-                 alt="Ремонт оргтехники"
-                 title="Ремонт оргтехники"
-                 width="300">
-            <br>
-            <a href="service2.html">Ремонт оргтехники</a>
-        </li>
-        <li>
-            <img src="../images/services/service3.jpg"
-                 alt="Настройка локальной сети"
-                 title="Настройка локальной сети"
-                 width="300">
-            <br>           
-            <a href="service3.html">Настройка локальной сети</a>
-        </li>
-   </ol>
-   <hr>
-   <div class="footer">
-       <h3>&copy; Все права защищены</h3>
-   </div>
+    <header>
+        <div class="headerInside">
+            <div class="logo"></div>
+            <div class="companyName">Айтивис</div>
+            <div class="navWrap">
+                <a href="../index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="../about/contacts.html">Контакты</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1 class="h1Service">Каталог услуг</h1>
+        <hr>
+        <div class="catalogBox">
+            <div class="catalogBox">
+                <div>
+                    <div class="shopUnit">
+                        <img src="../images/services/service1.jpg" class="shopImg">
+                        <div class="shopUnitName">
+                            Аутсорсинг ИТ
+                        </div>
+                        <div class="shopUnitShortDes">
+                            Lorem ipsum dolor sit amet, consectetur.
+                            Lorem ipsum dolor sit amet, consectetur.
+                            Lorem ipsum dolor sit amet, consectetur.
+                        </div>
+                        <div class="shopUnitPrice">
+                            Цена: 0000 руб.
+                        </div>
+                        <a href="servece1.html" class="shopUnitMore">
+                            Подробнее
+                        </a>
+                    </div>
+                    <div class="shopUnit">
+                        <img src="../images/services/service2.jpg" class="shopImg">
+                        <div class="shopUnitName">
+                            Ремонт оргтехники
+                        </div>
+                        <div class="shopUnitShortDes">
+                            Lorem ipsum dolor sit amet, consectetur.
+                            Lorem ipsum dolor sit amet, consectetur.
+                            Lorem ipsum dolor sit amet, consectetur.
+                        </div>
+                        <div class="shopUnitPrice">
+                            Цена: 0000 руб.
+                        </div>
+                        <a href="service2.html" class="shopUnitMore">
+                            Подробнее
+                        </a>
+                    </div>
+                    <div class="shopUnit">
+                        <img src="../images/services/service3.jpg" class="shopImg">
+                        <div class="shopUnitName">
+                            Локальные сети
+                        </div>
+                        <div class="shopUnitShortDes">
+                            Lorem ipsum dolor sit amet, consectetur.
+                            Lorem ipsum dolor sit amet, consectetur.
+                            Lorem ipsum dolor sit amet, consectetur.
+                        </div>
+                        <div class="shopUnitPrice">
+                            Цена: 0000 руб.
+                        </div>
+                        <a href="service3.html" class="shopUnitMore">
+                            Подробнее
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="footerInside">
+            <div class="contacts">
+                <div class="contactWrap">
+                    <img src="../images/envelope.svg" class="contactIcon">
+                    sales@itvis.ru
+                </div>
+                <div class="contactWrap">
+                    <img src="../images/phone-call.svg" class="contactIcon">
+                    8-3466-636-612
+                </div>
+                <div class="contactWrap">
+                    <img src="../images/placeholder.svg" class="contactIcon">
+                    Нижневартовск, ул.Нововартовская, д.4, оф. 133
+                </div>
+            </div>
+            <div class="footerNav">
+                <a href="../index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="../about/contacts.html">Контакты</a>
+            </div>
+            <div class="social">
+                <img class="socialItem" src="../images/vk-social-logotype.svg">
+                <img class="socialItem" src="../images/google-plus-social-logotype.svg">
+                <img class="socialItem" src="../images/facebook-logo.svg">
+            </div>
+            <div class="copyrights">&copy; Айтивис. 2017г.</div>
+        </div>
+    </footer>
 </body>    
 </html>
